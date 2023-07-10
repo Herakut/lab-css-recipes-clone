@@ -10,9 +10,12 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
+  margin-top: 0px;
+  margin-left: 80px;
+  margin-right: 80px;
   padding: 0;
   font-weight: lighter;
+  font-size: 20px;
 }
 
 /*  Set the font */
@@ -21,4 +24,56 @@ body {
 }
 
 /* STYLES */
+.apple{
+  background-image:   url(images/apple-pie.jpg) ;
+
+}
 /* Write your CSS below */
+
+.foto {
+  background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+  padding: 300px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+
+.apple{
+  font-size: 200px;
+  padding: 10px;
+  height: 800px
+
+}
+.section{
+  padding: 20px;
+}
+
+.piedefoto {
+  text-align: center;
+  margin: 50px 50px;
+  font-size: 50px;
+  
+}
+
+.preparacion {
+  margin: 0 auto;
+}
+
+.ingredients-direc {
+font-size: 50px;
+padding-top: 20px;
+padding-bottom: 15px;
+}
+
+.linea {
+  width: "20px";
+}
+
+li {
+  list-style-type: none;
+}
+
+.timer {
+  display: flex;
+  margin: 0 auto;
+}
